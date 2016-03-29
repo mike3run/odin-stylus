@@ -1,0 +1,19 @@
+.row
+  cf()
+
+.flexyrow
+  display: flex
+  flex-direction: column
+  flex-wrap: wrap
+  align-items: center
+  max-width: 100%
+
+  +mq(md)
+    flex-direction: row
+    justify-content: space-around
+
+.vertical
+  flex-direction: column
+
+.horizontal
+  flex-direction: row
